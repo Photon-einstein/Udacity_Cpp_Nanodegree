@@ -1,4 +1,4 @@
-# Udacity_C-_Nanodegree
+# Udacity_C++_Nanodegree
 Project created along this Nanodegree
 
 # A* Search Algorithm
