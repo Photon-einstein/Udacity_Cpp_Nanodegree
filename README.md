@@ -1,5 +1,5 @@
 # Udacity_C++_Nanodegree
-Project created along this Nanodegree
+Projects created along this Nanodegree
 
 # A* Search Algorithm
 - Contained in the folder CppND-Route-Planning-Project.
