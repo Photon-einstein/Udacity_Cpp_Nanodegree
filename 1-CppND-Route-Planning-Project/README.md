@@ -33,8 +33,8 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 ## Compiling and Running
 
 ### Compiling
-The build.zip and thirdparty.zip must be decompressed before compiled.
-To compile the project, first, create a `build` directory and change to that directory:
+* The build.zip and thirdparty.zip must be decompressed before compiled.
+* To compile the project, first, create a `build` directory and change to that directory:
 ```
 mkdir build && cd build
 ```
