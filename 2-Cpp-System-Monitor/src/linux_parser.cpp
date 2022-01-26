@@ -224,8 +224,7 @@ std::string LinuxParser::Ram(int pid) {
   long int ramMB;
   std::ifstream stream(LinuxParser::kProcDirectory+std::to_string(pid)+LinuxParser::kStatusFilename);
   /* read of /proc/pid/status */
-  /* changed from VmSize to VmRSS with the sugestion of the first reviewer to reflect
-  the actual size of memory used instead of virtual memory */
+  /* changed from VmSize to VmRSS to reflect the actual size of memory used instead of virtual memory */
   ramMB = getNumberOfOccurences<long int>(stream, "VmRSS:")/1024;
   return std::to_string(ramMB);
 }
