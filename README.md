@@ -15,4 +15,5 @@ Projects created along this Nanodegree
       to access cpu performance.
     
 # 3 - Memory Management Chatbot:
+* Contained in the folder `3-CppND-Memory-Management-Chatbot`
 * The goal of this project is to make the optimization of the existing chatbot code using modern C++ memory management techniques such as smart pointers and move semantics.
