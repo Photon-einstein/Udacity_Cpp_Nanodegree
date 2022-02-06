@@ -14,3 +14,5 @@ Projects created along this Nanodegree
     * the basic idea is to read and parse system file contents in `/proc` at the processor level and pid level as well as making several metrics calculations
       to access cpu performance.
     
+# 3 - Memory Management Chatbot:
+* The goal of this project is to make the optimization of the existing chatbot code using modern C++ memory management techniques such as smart pointers and move semantics.
