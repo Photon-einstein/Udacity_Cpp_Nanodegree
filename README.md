@@ -28,4 +28,5 @@ in a thread safe manner, assuring that only when the light are green will the ve
 * In this project it was made a simulator of an elevator system, where elevators, call elevators and users can be added to the system.
 * A file of output is generated to resume all the action that is taken place, as well as the content in the standart output.
 
-[TiagoSousa_C++_nanodegree_certificate.pdf](https://github.com/Photon-einstein/Udacity_Cpp_Nanodegree/files/8413433/TiagoSousa_C%2B%2B_nanodegree_certificate.pdf)
+![image](https://user-images.githubusercontent.com/31144077/161641043-fe548aee-629a-411b-a0e2-464fab4e7ae8.png)
+
