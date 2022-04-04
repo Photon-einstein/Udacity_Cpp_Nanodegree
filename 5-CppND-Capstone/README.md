@@ -240,17 +240,17 @@ as switch cases in main.cpp (line 53) or for loops in CapstoneParser.cpp (line
   156).<br />
 <br />
 The code is divided in functions as we can observe in the CapstoneParser.h.<br />
-
+<br />
 # Criteria 2: The project reads data from a file and process the data, or the<br />
 program writes data to a file.<br />
 <br />
-The code writes data to file "output.txt" in the build directory, for example in<br />
+The code writes data to file "output.txt" in the build directory, for example in <br />
 Scheduler.cpp (line 35).<br />
 <br />
-# Criteria 3: The project accepts user input and processes the input.<br />
+# Criteria 3: The project accepts user input and processes the input. <br />
 <br />
-It receives user input in CapstoneParser.cpp (line 149) and processes the input<br />
-int CapstoneParser.cpp (method CapstoneParser::commandParser line 91).<br />
+It receives user input in CapstoneParser.cpp (line 149) and processes the input <br />
+int CapstoneParser.cpp (method CapstoneParser::commandParser line 91). <br />
 <br />
 # Criteria 4: The project uses Object Oriented Programming techniques.<br />
 <br />
