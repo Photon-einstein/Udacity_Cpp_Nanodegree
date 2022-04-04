@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/src/Floor.h
+string
+-
+iostream
+-
+memory
+-
+
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/src/Person.h
+
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/src/main.cpp
+iostream
+-
+string
+-
+vector
+-
+memory
+-
+Person.h
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/src/Person.h
+Floor.h
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/src/Floor.h
+

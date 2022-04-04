@@ -1,0 +1,3 @@
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/build/CMakeFiles/rebuild_cache.dir
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/build/CMakeFiles/edit_cache.dir
+/home/tiago/Desktop/Udacity_courses/1-C++_Developer/5-CppND-Capstone/build/CMakeFiles/capstone.dir
