@@ -133,149 +133,149 @@ to serve.
 
 The program prints all the commands received as well as all the actions and
 responses taken to the file "output.txt" at the build directory.
-
-## Example of a output of the program, that was generated in the file "output.txt"
-
-File "output.txt" opened sucessfully.
-Scheduler created.
-
-Elevator number		Elevator type
-
--2			Garage-Lower level
--1			Garage-Upper level
-0			Restauration
-1			Commerce-Lower level
-2			Commerce-Upper level
-3			Office-Lower level
-4			Office-Mid level
-5			Office-Upper level
-
-Command: "add_elevator 2 1200"
-Elevator created: id=2, maxWeight=1200 kg, stateElevator=stationary.
-
-Command: "enter_elevator 2 400 3"
-Sucess: Enter_elevator 2 400 3.
-
-Command: "enter_elevator 2 400 2"
-Sucess: Enter_elevator 2 400 2.
-
-Command: "status" is not a valid command
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = -2, curr.: 800 kg / max.: 1200 kg.
-	Content of enter to elevator 2: Enter_elevator 2 400 3
-	Content of enter to elevator 2: Enter_elevator 2 400 2
-
-Command: "call_elevator 2 5"
-Sucess: Call_elevator 2 5.
-
-Command: "status 2"
-Status of Elevator id=2: movingUp, at floor = -2, going to floor = 3, curr.: 800 kg / max.: 1200 kg.
-	Content of enter to elevator 2: Enter_elevator 2 400 3
-	Content of enter to elevator 2: Enter_elevator 2 400 2
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "continue 2"
-Sucess: Continue 2.
-
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = 3, curr.: 800 kg / max.: 1200 kg.
-	Content of enter to elevator 2: Enter_elevator 2 400 2
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "exit_elevator 2 400"
-Sucess: Exit_elevator 2 400.
-
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = 3, curr.: 400 kg / max.: 1200 kg.
-	Content of enter to elevator 2: Enter_elevator 2 400 2
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "continue 2"
-Sucess: Continue 2.
-
-Command: "status 2"
-Status of Elevator id=2: movingDown, at floor = 3, going to floor = 2, curr.: 400 kg / max.: 1200 kg.
-	Content of enter to elevator 2: Enter_elevator 2 400 2
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "continue 2"
-Sucess: Continue 2.
-
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = 2, curr.: 400 kg / max.: 1200 kg.
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "exit_elevator 2 400"
-Sucess: Exit_elevator 2 400.
-
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = 2, curr.: 0 kg / max.: 1200 kg.
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "continue 2"
-Sucess: Continue 2.
-
-Command: "status 2"
-Status of Elevator id=2: movingUp, at floor = 2, going to floor = 5, curr.: 0 kg / max.: 1200 kg.
-	Content of calls to elevator 2: Call_elevator 2 5
-
-Command: "continue 2"
-Sucess: Continue 2.
-
-Command: "status 2"
-Status of Elevator id=2: stationary, at floor = 5, curr.: 0 kg / max.: 1200 kg.
-	Content of calls to elevator 2: empty
-
-Command: "out"
-Closing file "output.txt"
-
-
-## Rubric specifications addressing
-
-Criteria 1: The project demonstrates an understanding of C++ functions and
-control structures.
-
-There are used control structures as whiles in the main.cpp (line 45), as well
+<br />
+## Example of a output of the program, that was generated in the file "output.txt" <br />
+<br />
+File "output.txt" opened sucessfully. <br />
+Scheduler created. <br />
+<br />
+Elevator number		Elevator type <br />
+<br />
+-2			Garage-Lower level <br />
+-1			Garage-Upper level <br />
+0			Restauration<br />
+1			Commerce-Lower level<br />
+2			Commerce-Upper level<br />
+3			Office-Lower level<br />
+4			Office-Mid level<br />
+5			Office-Upper level<br />
+<br />
+#Command: "add_elevator 2 1200"<br />
+Elevator created: id=2, maxWeight=1200 kg, stateElevator=stationary.<br />
+<br />
+#Command: "enter_elevator 2 400 3"<br />
+Sucess: Enter_elevator 2 400 3.<br />
+<br />
+#Command: "enter_elevator 2 400 2"<br />
+Sucess: Enter_elevator 2 400 2.<br />
+<br />
+#Command: "status" is not a valid command<br />
+Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = -2, curr.: 800 kg / max.: 1200 kg.<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 3<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 2<br />
+<br />
+#Command: "call_elevator 2 5"<br />
+Sucess: Call_elevator 2 5.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: movingUp, at floor = -2, going to floor = 3, curr.: 800 kg / max.: 1200 kg.<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 3<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 2<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />
+#Command: "continue 2"<br />
+Sucess: Continue 2.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = 3, curr.: 800 kg / max.: 1200 kg.<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 2<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />
+#Command: "exit_elevator 2 400"<br />
+Sucess: Exit_elevator 2 400.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = 3, curr.: 400 kg / max.: 1200 kg.<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 2<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />	
+#Command: "continue 2"<br />
+Sucess: Continue 2.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: movingDown, at floor = 3, going to floor = 2, curr.: 400 kg / max.: 1200 kg.<br />
+	Content of enter to elevator 2: Enter_elevator 2 400 2<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />
+#Command: "continue 2"<br />
+Sucess: Continue 2.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = 2, curr.: 400 kg / max.: 1200 kg.<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />
+#Command: "exit_elevator 2 400"<br />
+Sucess: Exit_elevator 2 400.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = 2, curr.: 0 kg / max.: 1200 kg.<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />	
+#Command: "continue 2"<br />
+Sucess: Continue 2.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: movingUp, at floor = 2, going to floor = 5, curr.: 0 kg / max.: 1200 kg.<br />
+	Content of calls to elevator 2: Call_elevator 2 5<br />
+<br />
+#Command: "continue 2"<br />
+Sucess: Continue 2.<br />
+<br />
+#Command: "status 2"<br />
+Status of Elevator id=2: stationary, at floor = 5, curr.: 0 kg / max.: 1200 kg.<br />
+	Content of calls to elevator 2: empty<br />
+<br />
+#Command: "out"<br />
+Closing file "output.txt"<br />
+<br />
+<br />
+## Rubric specifications addressing<br />
+<br />
+#Criteria 1: The project demonstrates an understanding of C++ functions and<br />
+control structures.<br />
+<br />
+#There are used control structures as whiles in the main.cpp (line 45), as well<br />
 as switch cases in main.cpp (line 53) or for loops in CapstoneParser.cpp (line
-  156).
+  156).<br />
+<br />
+The code is divided in functions as we can observe in the CapstoneParser.h.<br />
 
-The code is divided in functions as we can observe in the CapstoneParser.h.
-
-Criteria 2: The project reads data from a file and process the data, or the
-program writes data to a file.
-
-The code writes data to file "output.txt" in the build directory, for example in
-Scheduler.cpp (line 35).
-
-Criteria 3: The project accepts user input and processes the input.
-
-It receives user input in CapstoneParser.cpp (line 149) and processes the input
-int CapstoneParser.cpp (method CapstoneParser::commandParser line 91).
-
-Criteria 4: The project uses Object Oriented Programming techniques.
-
-This project uses OOP, with the Scheduler, Elevator and Floor classes.
-Each class has data and methods that work on that data, example in Scheduler.cpp
-(line 24).
-
-Criteria 5: Classes use appropriate access specifiers for class members.
-
-All data members use private specifiers in Elevator.h (line 66), Floor.h
-(line 23) or public in Scheduler.h (line 41)
-
-Criteria 6: Class constructors utilize member initialization lists.
-
-At Floor.cpp (line 8), Scheduler.cpp (line 14) and Elevator.cpp (line 10 and 17)
-
-Criteria 7: The project makes use of references in function declarations.
-
-At Scheduler.h (lines 20 and 23).
-
-Criteria 8: The project uses destructors appropriately.
-
-At Scheduler.h (line 16).
-
-Criteria 9: The project uses smart pointers instead of raw pointers.
-
-The project uses shared_pt instead of raw pointers in all the project,
-for example in Scheduler.h (line 41).
+#Criteria 2: The project reads data from a file and process the data, or the<br />
+program writes data to a file.<br />
+<br />
+The code writes data to file "output.txt" in the build directory, for example in<br />
+Scheduler.cpp (line 35).<br />
+<br />
+#Criteria 3: The project accepts user input and processes the input.<br />
+<br />
+It receives user input in CapstoneParser.cpp (line 149) and processes the input<br />
+int CapstoneParser.cpp (method CapstoneParser::commandParser line 91).<br />
+<br />
+#Criteria 4: The project uses Object Oriented Programming techniques.<br />
+<br />
+This project uses OOP, with the Scheduler, Elevator and Floor classes.<br />
+Each class has data and methods that work on that data, example in Scheduler.cpp<br />
+(line 24).<br />
+<br />
+#Criteria 5: Classes use appropriate access specifiers for class members.<br />
+<br />
+All data members use private specifiers in Elevator.h (line 66), Floor.h<br />
+(line 23) or public in Scheduler.h (line 41)<br />
+<br />
+#Criteria 6: Class constructors utilize member initialization lists.<br />
+<br />
+At Floor.cpp (line 8), Scheduler.cpp (line 14) and Elevator.cpp (line 10 and 17)<br />
+<br />
+#Criteria 7: The project makes use of references in function declarations.<br />
+<br />
+At Scheduler.h (lines 20 and 23).<br />
+<br />
+#Criteria 8: The project uses destructors appropriately.<br />
+<br />	
+At Scheduler.h (line 16).<br />
+<br />
+#Criteria 9: The project uses smart pointers instead of raw pointers.<br />
+<br />
+The project uses shared_pt instead of raw pointers in all the project,<br />
+for example in Scheduler.h (line 41).<br />
