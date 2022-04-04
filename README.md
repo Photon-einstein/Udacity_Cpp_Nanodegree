@@ -22,3 +22,8 @@ Projects created along this Nanodegree
 * Contained in the folder '4-CppND-Program-a-Concurrent-Traffic-Simulation-master'
 * The goal of this project is to add to the trafic simulator the traffic lights and develop the interaction with the vehicles
 in a thread safe manner, assuring that only when the light are green will the vehicles pass in the intersections. 
+
+# 5 - Capstone project: Elevator system simulator
+* Contained in the folder '5-CppND-Capstone'
+* In this project it was made a simulator of an elevator system, where elevators, call elevators and users can be added to the system.
+* A file of output is generated to resume all the action that is taken place, as well as the content in the standart output.
