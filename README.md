@@ -26,7 +26,7 @@ in a thread safe manner, assuring that only when the light are green will the ve
 # 5 - Capstone project: Elevator system simulator
 * Contained in the folder '5-CppND-Capstone'
 * In this project it was made a simulator from scratch of an elevator system, where elevators, call elevators and users can be added to the system.
-* A file of output is generated to resume all the action that is taken place, as well as the content in the standart output.
+* A file of output is generated to resume all the action that took place, as well as the data in the standart output.
 
 ![image](https://user-images.githubusercontent.com/31144077/161641043-fe548aee-629a-411b-a0e2-464fab4e7ae8.png)
 
