@@ -235,7 +235,7 @@ Closing file "output.txt"<br />
 # Criteria 1: The project demonstrates an understanding of C++ functions and<br />
 control structures.<br />
 <br />
-There are used control structures as whiles in the main.cpp (line 45), as well<br />
+There were used control structures as whiles in the main.cpp (line 45), as well<br />
 as switch cases in main.cpp (line 53) or for loops in CapstoneParser.cpp (line
   156).<br />
 <br />
