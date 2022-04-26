@@ -125,7 +125,7 @@ present in the system and also mapping between then and the id of each one. The<
 Scheduler decides witch call_elevator or enter_elevator to serve using the<br />
 principle of FIFO (First In First Out) algorithm.<br />
 <br />
-*The the class Elevator (Elevator.h/cpp) has several methods that implement<br />
+*The class Elevator (Elevator.h/cpp) has several methods that implement<br />
 the several commands at the elevator level, it is present all the data needed<br />
 for that effect namely the id, max and current weight, actual floor number, the<br />
 state of the elevator and the list of all the call_elevator and/or enter_elevator<br />
