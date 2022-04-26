@@ -78,9 +78,9 @@ This request for the next action in elevator 1. If the elevator has is moving<br
 then it will stop in the next call_elevator or enter_elevator action. If the<br />
 elevator is stationary and has some enter_elevator or call_elevator in storage<br />
 then it will pass to a moving state when continue is used.<br />
-(if the elevator is stationary and has no call_elevator in the system, if it<br />
+(if the elevator is stationary and has no call_elevator in the system, if <br />
 receives the first call_elevator it will automatically switch to a moving state,<br />
-in all the other cases it needs the continue commmand).<br />
+in all the other cases it needs the continue command).<br />
 <br />
 * Example of the command enter_elevator <elevator-id> <total-weight-in-kgs-entering> <floor id called><br />
 Example: enter_elevator 2 80 3<br />
