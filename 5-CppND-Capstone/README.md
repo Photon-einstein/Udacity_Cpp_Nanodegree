@@ -25,7 +25,7 @@ This Capstone Project aims to simulate an elevator system.
 
 ## Example of a program executed
 
-(![Screenshot from 2023-03-17 23-17-10](https://user-images.githubusercontent.com/31144077/226068631-14a4b275-653e-4b78-924d-2845fd650b23.png)
+![Screenshot from 2023-03-17 23-17-10](https://user-images.githubusercontent.com/31144077/226068631-14a4b275-653e-4b78-924d-2845fd650b23.png)
 
 
 ## Description of the Project
