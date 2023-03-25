@@ -1,3 +1,0 @@
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/4-CppND-Program-a-Concurrent-Traffic-Simulation-master/build/CMakeFiles/rebuild_cache.dir
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/4-CppND-Program-a-Concurrent-Traffic-Simulation-master/build/CMakeFiles/edit_cache.dir
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/4-CppND-Program-a-Concurrent-Traffic-Simulation-master/build/CMakeFiles/traffic_simulation.dir
