@@ -1,3 +1,0 @@
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/3-CppND-Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/3-CppND-Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
-/home/tiago/Desktop/Udacity_courses/1-C++_Developer/3-CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir
