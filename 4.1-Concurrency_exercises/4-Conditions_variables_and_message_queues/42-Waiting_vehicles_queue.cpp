@@ -74,6 +74,4 @@ int main()
     std::cout << "Finished!" << std::endl;
 
     return 0;
-} 
-
-// 5.  4.3 Building concurrency message queue -- slide 2
+}
